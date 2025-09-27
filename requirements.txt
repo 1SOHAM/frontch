@@ -1,19 +1,7 @@
-# Core dependencies
+Flask==3.0.3
+gunicorn==21.2.0
 pandas==2.2.2
 numpy==1.26.4
-
-# Common scientific/ML stack (adjust if not needed)
-scipy==1.13.1
-scikit-learn==1.5.2
-
-# Web framework (if you are using Flask/FastAPI/Django, keep only one)
-flask==3.0.3
-# fastapi==0.115.0
-# django==5.0.6
-
-# Server
-gunicorn==22.0.0
-
-# Other useful utilities
-python-dotenv==1.0.1
+scikit-learn==1.4.2
 requests==2.32.3
+python-dotenv==1.0.1
